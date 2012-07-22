@@ -4,6 +4,7 @@
 -include device/lge/iprj-common/BoardConfigCommon.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := su640
+TARGET_OTA_ASSERT_DEVICE := su640
 
 # Try to build the kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_su640_defconfig
