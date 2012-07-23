@@ -8,7 +8,7 @@ PRODUCT_COPY_FILES += \
 
 ## NFC 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/config/nfcee_access.xml:system/etc/nfcee_access.xml
+    $(LOCAL_PATH)/config/nfcee_access.xml:system/etc/nfcee_access.xml \
     frameworks/base/data/etc/android.hardware.nfc.xml:system/etc/permissions/android.hardware.nfc.xml
 
 # NFC packages

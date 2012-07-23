@@ -1,6 +1,7 @@
 #
 # system.prop for su640
 #
-ril.subscription.types=NV,RUIM
-ro.telephony.default_network=10
-telephony.lteOnCdmaDevice=1
+#ril.subscription.types=NV,RUIM
+ro.telephony.default_network=9
+#telephony.lteOnCdmaDevice=1
+telephony.lteOnGsmDevice=1
