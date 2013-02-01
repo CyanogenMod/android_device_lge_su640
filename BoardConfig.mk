@@ -11,5 +11,4 @@ TARGET_KERNEL_CONFIG := cyanogenmod_su640_defconfig
 # Keep this as a fallback
 TARGET_PREBUILT_KERNEL := device/lge/su640/kernel
 
-# mmc_erase sometimes hangs and requires a reboot, so skip it
-BOARD_SUPPRESS_EMMC_WIPE := true
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/su640/bluetooth
