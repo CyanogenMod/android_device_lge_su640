@@ -5,4 +5,5 @@
 ro.telephony.default_network=9
 #telephony.lteOnCdmaDevice=1
 telephony.lteOnGsmDevice=1
-
+ro.telephony.ril.v3=qcomuiccstack
+ro.product.camera=lgp930
